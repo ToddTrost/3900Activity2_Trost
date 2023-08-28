@@ -22,11 +22,28 @@ max-width: 100%;
    max-width: 940px;
    margin: 0 auto;
    padding: 0 5%;
+   background-color: #FFFFFF;
+
+ }
+
+ #img_link {
+   max-width: 150px;
+   margin: 0 0 1em 0;
+   padding: 0 5%;
 
  }
 
  h3 {
      margin: 0 0 1em 0;
+ }
+
+ p.spaced {
+     margin: 0 0 1em 0;
+     line-height: 1;
+ }
+
+  p.added {
+     font-size: 12px;
  }
 
 
@@ -56,22 +73,54 @@ header {
  h1  {
  font-family: 'Changa One', sans-serif;
  margin: 10px 0;
- font-size: 1.75em;
+ font-size: 2.00em;
+ font-weight: bold;
+ line-height: .75;
+ text-align: center;
+ color: #101884;
+ }
+
+ /***
+ Sub-header formatting addition
+ ***/
+
+h1.sub  {
+ font-family: 'Changa One', sans-serif;
+ margin: 10px 0;
+ font-size: 1.00em;
  font-weight: normal;
  line-height: 0.5;
  text-align: center;
-
-   color: #101884;
+ color: #101884;
 
  }
 
  h2  {
- font-size: 1.00em;
+ font-size: .90em;
  font-weight: normal;
  margin: -5px 0 0;
-   color: #df330a;
+ line-height: 0.5;
+ text-align: center;
  }
 
+ h2.sub  {
+ font-size: 1.25em;
+ font-weight: normal;
+ margin: 2px 0 0;
+ line-height: 1;
+ text-align: center;
+ color: #101884;
+ }
+
+ .just  {
+ font-family: 'Changa One', sans-serif;
+ margin: 10px 0;
+ font-size: 1.25em;
+ font-weight: normal;
+ line-height: 0.5;
+ color: #101884;
+ text-align: left;
+ }
 
 h3  {
     font-size: 1.1em;
@@ -118,15 +167,15 @@ PAGE:
 
 .myimage {
     float:left;
-    width:150px;
-    height:175px;
-    margin:20px;
-    border-radius: 20px;
+    display: block;
+    max-width: 500px;
+    margin: 0 auto 30px;
+    border-radius: 5px;
 }
 
-.dog-photo {
+.phenomenon-photo {
     display: block;
-    max-width: 250px;
+    max-width: 500px;
     margin: 0 auto 30px;
     border-radius: 5px;
 }
@@ -136,7 +185,7 @@ PAGE:
  /*************************************
 PAGE: ABOUT
 **************************************/
-.profile-photo {
+.header-photo {
     display: block;
     max-width: 400px;
     margin: 0 auto 30px;
